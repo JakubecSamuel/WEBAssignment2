@@ -1,0 +1,112 @@
+body {
+    background-image: url("obrazok.jpeg");
+    background-attachment: fixed;
+    height: auto;
+    background-size: 100% 100%;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    opacity: 0.99;
+  }
+
+  .panel {
+    background-color: rgb(224, 236, 236);
+  }
+
+  .panel:hover {
+    background-color: rgb(224, 236, 236);
+  }
+
+  
+  tr.panel {
+    display: none;
+  }
+  @media screen and (max-width: 768px) {
+    table {
+      font-size: 14px;
+    }
+  }
+
+  tr th {
+    text-align: center;
+    color: black;
+  }
+
+  td {
+    font-weight: bold;
+    overflow-y: hidden;
+  }
+
+  .panel {
+    overflow-y: hidden;
+  }
+
+  .wrapper {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 15px;
+    width: 100%;
+    margin: 2% 0;
+    padding: 10px;
+    /* text-align: justify; */
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .wrapper p {
+    max-width: 100%;
+    margin-right: 10px;
+  }
+
+  img {
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+  }
+
+  .href-div {
+    width: 20px;
+    height: 20px;
+  }
+
+
+  .center-button {
+    font-size: 10px;
+    width: 55px;
+    height: 30px;
+  }
+
+  .nav-padding  button {
+    margin-left: 10px;
+
+  }
+  .button-54 {
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 1px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px;
+    position: relative;
+    touch-action: manipulation;
+    border-radius: 20%;
+  }
+
+  .button-54:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+  }
+
+  @media (min-width: 768px) {
+    .button-54 {
+      padding: 0.25em 0.75em;
+    }
+  }
